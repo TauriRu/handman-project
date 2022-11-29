@@ -1,4 +1,3 @@
-
 type HandmanWordProps = {
     guessedLetters: string[]
     wordToGuess: string

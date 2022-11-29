@@ -1,5 +1,5 @@
 .btn {
-  width: 100%;
+  max-width: 100%;
   border: 3px solid black;
   box-shadow: 0 0 10px black;
   aspect-ratio: 1/1;
