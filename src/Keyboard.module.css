@@ -1,0 +1,24 @@
+.btn {
+  width: 100%;
+  border: 3px solid black;
+  box-shadow: 0 0 10px black;
+  aspect-ratio: 1/1;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: black;
+  opacity: 1;
+}
+.btn.active {
+  background-color: black;
+  color: red;
+}
+
+.btn.inactive {
+  opacity: 0.3;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: crimson;
+}
